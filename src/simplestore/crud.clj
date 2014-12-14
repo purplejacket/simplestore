@@ -1,0 +1,1 @@
+(ns simplestore.crud)
