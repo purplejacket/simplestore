@@ -1,7 +1,8 @@
 (ns simplestore.core-test
   (:require [clojure.test :refer :all]
-            [simplestore.core :refer :all]))
+            [simplestore.crud :as crud]))
 
 (deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+  (testing "it reads a value"
+    (is (= (crud/read "key1") "val1"))))
+
