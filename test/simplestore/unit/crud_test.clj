@@ -1,4 +1,4 @@
-(ns simplestore.core-test
+(ns simplestore.unit.crud-test
   (:require [clojure.test :refer :all]
             [simplestore.crud :as crud]
             [simplestore.datastore :as ds]))
